@@ -1,0 +1,158 @@
+/* CountrysideDark_Grok – Obsidian Theme */
+
+.theme-dark, .theme-light {
+  --uk-cream: #F7F3E9;
+  --uk-cream-dark: #EDE6D6;
+  --uk-forest: #1A3C34;
+  --uk-forest-deep: #121C18;
+  --uk-forest-mid: #2D5A4A;
+  --uk-sage: #5B7C6A;
+  --uk-stone: #8A7F6B;
+  --uk-heather: #A05078;
+  --uk-red: #C8102E;
+  --uk-text: #E6DCC8;
+  --uk-muted: #A89880;
+}
+
+.theme-dark {
+  --background-primary: #1E2A24;
+  --background-primary-alt: #26332C;
+  --background-secondary: #161F1A;
+  --background-secondary-alt: #1A2420;
+  --background-modifier-border: #2D3D34;
+  --background-modifier-hover: #2A3830;
+  --background-modifier-active-hover: #34443A;
+
+  --text-normal: #E6DCC8;
+  --text-muted: #A89880;
+  --text-faint: #7A7060;
+  --text-on-accent: #F7F3E9;
+  --text-accent: #C090A8;
+  --text-accent-hover: #D0A8B8;
+  --text-error: #C8102E;
+  --text-success: #5B7C6A;
+  --text-warning: #B8A060;
+  --text-highlight-bg: rgba(200, 16, 46, 0.25);
+
+  --interactive-normal: #2A3830;
+  --interactive-hover: #34443A;
+  --interactive-accent: #A05078;
+  --interactive-accent-hover: #B86890;
+  --interactive-success: #5B7C6A;
+
+  --accent: #A05078;
+  --accent-hover: #B86890;
+
+  --titlebar-background: #121C18;
+  --titlebar-background-focused: #161F1A;
+
+  --ribbon-background: #121C18;
+  --ribbon-background-collapsed: #161F1A;
+
+  --tab-container-background: #121C18;
+  --tab-background-active: #1E2A24;
+
+  --nav-item-color: #A89880;
+  --nav-item-color-hover: #E6DCC8;
+  --nav-item-color-active: #E6DCC8;
+  --nav-item-background-hover: #2A3830;
+  --nav-item-background-active: #2A3830;
+
+  --graph-line: #5B7C6A;
+  --graph-node: #E6DCC8;
+  --graph-node-focused: #C8102E;
+  --graph-node-tag: #A05078;
+  --graph-node-attachment: #8A7F6B;
+  --graph-node-unresolved: #7A7060;
+
+  --code-background: #161F1A;
+  --code-normal: #E6DCC8;
+  --blockquote-border: #A05078;
+  --checkbox-color: #A05078;
+  --checkbox-color-hover: #B86890;
+}
+
+/* Light fallback still available but tuned softer */
+.theme-light {
+  --background-primary: #F7F3E9;
+  --background-primary-alt: #EDE6D6;
+  --background-secondary: #EDE6D6;
+  --background-secondary-alt: #E0D8C8;
+  --background-modifier-border: #D0C8B8;
+  --background-modifier-hover: #E0D8C8;
+  --background-modifier-active-hover: #D0C8B8;
+
+  --text-normal: #1A2A24;
+  --text-muted: #5C6B62;
+  --text-faint: #8A7F6B;
+  --text-on-accent: #F7F3E9;
+  --text-accent: #2D5A4A;
+  --text-accent-hover: #1A3C34;
+  --text-error: #C8102E;
+  --text-success: #2D5A4A;
+  --text-warning: #8A7F6B;
+  --text-highlight-bg: rgba(200, 16, 46, 0.15);
+
+  --interactive-normal: #EDE6D6;
+  --interactive-hover: #E0D8C8;
+  --interactive-accent: #A05078;
+  --interactive-accent-hover: #8A4068;
+  --interactive-success: #2D5A4A;
+
+  --accent: #A05078;
+  --accent-hover: #8A4068;
+
+  --titlebar-background: #EDE6D6;
+  --titlebar-background-focused: #F7F3E9;
+
+  --ribbon-background: #EDE6D6;
+  --ribbon-background-collapsed: #F7F3E9;
+
+  --tab-container-background: #EDE6D6;
+  --tab-background-active: #F7F3E9;
+
+  --nav-item-color: #5C6B62;
+  --nav-item-color-hover: #1A2A24;
+  --nav-item-color-active: #1A3C34;
+  --nav-item-background-hover: #E0D8C8;
+  --nav-item-background-active: #E0D8C8;
+
+  --graph-line: #5B7C6A;
+  --graph-node: #1A3C34;
+  --graph-node-focused: #C8102E;
+  --graph-node-tag: #A05078;
+  --graph-node-attachment: #2D5A4A;
+  --graph-node-unresolved: #8A7F6B;
+
+  --code-background: #EDE6D6;
+  --code-normal: #1A2A24;
+  --blockquote-border: #A05078;
+  --checkbox-color: #A05078;
+  --checkbox-color-hover: #8A4068;
+}
+
+body {
+  --font-text-theme: inherit;
+  --font-interface-theme: inherit;
+  --radius-s: 4px;
+  --radius-m: 6px;
+  --radius-l: 8px;
+}
+
+.cm-header,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3 {
+  color: var(--text-accent);
+}
+
+.cm-quote,
+.markdown-preview-view blockquote {
+  border-left-color: var(--blockquote-border);
+  color: var(--text-muted);
+}
+
+.tag, a.tag {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
