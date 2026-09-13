@@ -1,1 +1,1 @@
-A clean Obsidian colouring theme based on English countryside colours. Designed by Peter Squentz using Grok AI. Colours used are forest greens, warm browns, heather and red accents.
+A clean Obsidian colouring theme based on English countryside colours. Designed by Peter Squentz using Grok AI for the sheer thrill of it. Colours used are forest greens, warm browns, heather and red accents. If you like it, feel free to enhance it & let me know!
